@@ -1,0 +1,37 @@
+1. np.array() 
+ => array like [1,2,3]
+ => flush array with a number like  [6] * 5 => [6, 6, 6, 6, 6]
+
+2. np.zeros([4,5]) => 4 * 5 matrix with zeros
+3. np.ones([2,3]) => 2 * 3 matrix with ones #These can be used to track yes and no -like boolean
+
+4. np.zeros_like(X) => X is another numpy array whose shape will be used to create a new array with 0s
+5. np.ones_like(X) => same as above with 1s
+
+6. np.random.randint(a,b,size = (x,y)) => Create a random array with numbers between a to b with shape x,y
+   np.random.randn(x,y,z) => Totally random float variables of shape x,y,z
+
+7. np.mean(A , axis 0/1) => A is the array, 0 is vertical slices, 1 is horizontal
+8. np.sum(A) => A is the array => it can be conditional as well like A[A > A.mean()]
+
+9. np.arange( a, b, d) => create an array starting with a to b-1 incrementing with d
+
+10. np.dot(A, B) => dot product between array A and B (regular dot product rules apply from matrices)
+11. A @ B => cross product
+12. A.T => transpose of A
+
+13. All mathematical operations on np arrays work on individual element
+14. All logical operations return true or false array
+
+15. np.eye(n) / np.identity(n) => n * n identity matrix is created
+
+16. np.copy(X) => make a copy of array X
+
+17. np.hstack(A,B) => join A and B side by side (can be done by np.append() as well)
+18. np.vstack(A,B) => join A and B one on top of other
+19. np.repeat(x/X, n) => repeats number n times or each element of X n times
+
+20. np.intersection1d() => common elements in all the arrays in sorted format
+
+
+
